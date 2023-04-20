@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <RootLayout />,
     children: [
-      { path: "/", element: <Home /> },
+      { index: true, element: <Home /> },
       { path: "checkout", element: <Checkout />},
       { path: "payment", element: <Elements stripe={stripePromise}><Payment /></Elements>  },
       { path: "orders", element: <Orders /> },
