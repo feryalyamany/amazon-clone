@@ -17,7 +17,7 @@ const router = createBrowserRouter([
   { path: "login", element: <Login /> },
  
   {
-    path: "amazon-clone",
+    path: "/",
     element: <RootLayout />,
     children: [
       { path: "/", element: <Home /> },
