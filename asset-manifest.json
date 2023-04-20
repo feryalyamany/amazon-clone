@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/amazon-clone/static/css/main.84fb2917.css",
+    "main.js": "/amazon-clone/static/js/main.f213ca59.js",
+    "static/media/fa-solid-900.ttf": "/amazon-clone/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/2.png": "/amazon-clone/static/media/2.0f5bc477d58244e1dbf1.png",
+    "static/media/6.png": "/amazon-clone/static/media/6.ff4f8692e4e7bb08800a.png",
+    "static/media/1.png": "/amazon-clone/static/media/1.f039a27703de29c4ec4c.png",
+    "static/media/fa-brands-400.ttf": "/amazon-clone/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/amazon-clone/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/5.png": "/amazon-clone/static/media/5.f6c0dff37b8454f105e6.png",
+    "static/media/fa-brands-400.woff2": "/amazon-clone/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/3.png": "/amazon-clone/static/media/3.0f5c91bd9cf7ac7b382f.png",
+    "static/media/home.jpg": "/amazon-clone/static/media/home.37e38a1c83060cf8ec40.jpg",
+    "static/media/login-logo.png": "/amazon-clone/static/media/login-logo.808bf88ddaba0301ceca.png",
+    "static/media/fa-regular-400.ttf": "/amazon-clone/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/header-logo.png": "/amazon-clone/static/media/header-logo.1c9be0b254d3ff1dc9e9.png",
+    "static/media/4.png": "/amazon-clone/static/media/4.627bf584cf285f25e5c2.png",
+    "static/media/checkoutAd.jpg": "/amazon-clone/static/media/checkoutAd.b842b1e4bb0cc75ce652.jpg",
+    "static/media/fa-regular-400.woff2": "/amazon-clone/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/star.png": "/amazon-clone/static/media/star.618d11e122cbca3f8e9e.png",
+    "static/media/fa-v4compatibility.ttf": "/amazon-clone/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/amazon-clone/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/amazon-clone/index.html",
+    "main.84fb2917.css.map": "/amazon-clone/static/css/main.84fb2917.css.map",
+    "main.f213ca59.js.map": "/amazon-clone/static/js/main.f213ca59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84fb2917.css",
+    "static/js/main.f213ca59.js"
+  ]
+}
