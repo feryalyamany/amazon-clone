@@ -15,9 +15,9 @@ import { auth } from "./firebase";
 const stripePromise = loadStripe("pk_test_51MhdQRG0OJPT6HVx442cawgLUjkzXmuGPdh6STvzxHzbaMH8chXS39F13xMRAZFBQDxzZLGyIh1cbJJcOJIESltG00nMKGauJ3")
 const router = createBrowserRouter([
   { path: "login", element: <Login /> },
-  
+ 
   {
-    path: "/",
+    path: "amazon-clone",
     element: <RootLayout />,
     children: [
       { path: "/", element: <Home /> },
