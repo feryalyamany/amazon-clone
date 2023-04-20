@@ -15,12 +15,7 @@ import { auth } from "./firebase";
 const stripePromise = loadStripe("pk_test_51MhdQRG0OJPT6HVx442cawgLUjkzXmuGPdh6STvzxHzbaMH8chXS39F13xMRAZFBQDxzZLGyIh1cbJJcOJIESltG00nMKGauJ3")
 const router = createBrowserRouter([
   { path: "login", element: <Login /> },
-  {
-    path: "*",
-    element: (
-      <h1 style={{ textAlign: "center", padding: "100px" }}>Page Not Found</h1>
-    ),
-  },
+  
   {
     path: "/",
     element: <RootLayout />,
@@ -30,6 +25,13 @@ const router = createBrowserRouter([
       { path: "payment", element: <Elements stripe={stripePromise}><Payment /></Elements>  },
       { path: "orders", element: <Orders /> },
     ],
+  },
+
+  {
+    path: "*",
+    element: (
+      <h1 style={{ textAlign: "center", padding: "100px" }}>Page Not Found</h1>
+    ),
   },
 ]);
 
