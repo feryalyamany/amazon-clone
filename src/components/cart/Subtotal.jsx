@@ -1,7 +1,7 @@
 import React from 'react';
 import {getCartTotal} from '../../context/AppReducer';
 import {useAuth} from '../../context/GlobalState';
-import CurrencyFormat from 'react-currency-format';
+import NumberFormat from 'react-number-format-datagrid-stable-version';
 import { useNavigate } from 'react-router-dom';
 const Subtotal = () => {
   const navigate= useNavigate()
@@ -11,7 +11,7 @@ const Subtotal = () => {
      <div className="col-md-3 col-12">
             <div className="bg-light p-3">
               
-                <CurrencyFormat renderText={(value)=>(
+                <NumberFormat renderText={(value)=>(
                  
                     <h5>Subtotal ({cart.length} {cart.length>1 ? "items":"item"}): <strong>{value}</strong></h5>
                   

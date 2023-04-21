@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/GlobalState";
-import CurrencyFormat from "react-currency-format";
+import NumberFormat from 'react-number-format-datagrid-stable-version';
 import CartItems from "./CartItems";
 import { getCartTotal } from "../../context/AppReducer";
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
@@ -118,7 +118,7 @@ const Payment = () => {
             <div className="col-md-9 col-12">
               <form onSubmit={submitHandler}>
                 <CardElement onChange={changeHandler} />
-                <CurrencyFormat
+                <NumberFormat
                   renderText={(value) => (
                     <h5 className="mt-3">
                       Total : <strong>{value}</strong>
@@ -130,6 +130,7 @@ const Payment = () => {
                   thousandSeparator={true}
                   value={getCartTotal(cart)}
                 />
+                
                 <button
                   type="submit"
                   className="btn w-100 py-1 mt-3 fw-semibold"
